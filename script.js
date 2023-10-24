@@ -19,17 +19,22 @@ function submit () {
 };
 
 //Events:
+//(updated):
+for (let i = 0; i < rate.length; i++) 
+{ rate[i].addEventListener("click", () => 
+valor = rate[i].innerHTML)
+};
 
-rate[0].addEventListener("click",()=>
-valor = rate[0].innerHTML);
-rate[1].addEventListener("click",()=>
-valor = rate[1].innerHTML);
-rate[2].addEventListener("click",()=>
-valor = rate[2].innerHTML);
-rate[3].addEventListener("click",()=>
-valor = rate[3].innerHTML);
-rate[4].addEventListener("click",()=>
-valor = rate[4].innerHTML);
+// rate[0].addEventListener("click",()=>
+// valor = rate[0].innerHTML);
+// rate[1].addEventListener("click",()=>
+// valor = rate[1].innerHTML);
+// rate[2].addEventListener("click",()=>
+// valor = rate[2].innerHTML);
+// rate[3].addEventListener("click",()=>
+// valor = rate[3].innerHTML);
+// rate[4].addEventListener("click",()=>
+// valor = rate[4].innerHTML);
 
 btn.addEventListener("click",submit);
 
